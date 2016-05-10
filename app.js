@@ -44,7 +44,7 @@ function makeDeck() {
     }
   }
 }
-  var pickACard ;
+  var pickACard ; 
            var pickACard = function(){
             var fC = deck[Math.floor(Math.random() * deck.length)];
               var rmFC = deck.splice(fC, 1)
