@@ -44,16 +44,59 @@ function makeDeck() {
     }
   }
 }
-  var pickACard ; 
-           var pickACard = function(){
+var doIHit;
+var hitClick;
+var currentHand = []
+var fC;
+var fC2;
+var firstPick = function() {
+          currentHand = []
+          for (var i = 0; i < 1; i++) {
             var fC = deck[Math.floor(Math.random() * deck.length)];
               var rmFC = deck.splice(fC, 1)
+
+              currentHand.push(fC);
+
+              console.log("there are " + deck.length + " cards left"); 
+             }
+            for (var i = 0; i < 1; i++) {
+            var fC2 = deck[Math.floor(Math.random() * deck.length)];
+              var rmFC2 = deck.splice(fC2, 1)
+
+              currentHand.push(fC2);
+              alert(fC.value+fC2.value);
              
 
-             return fC;
-}; 
-              console.log(deck)
-                 	 
+              console.log("there are " + deck.length + " cards left");
+
+              }
+            
+
+             
+
+
+
+            // this is not working. i am trying to add a hit function but it is giving me a $)@#U*$ load of $)##@)($!) trouble
+          var hitClick = function(){ 
+            for (var i = 0; i < 1; i++) {
+            var fC3 = deck[Math.floor(Math.random() * deck.length)];
+              var rmFC3 = deck.splice(fC3, 1)
+
+              currentHand.push(fC3);
+              console.log(fC.value+fC2.value+fC3.value)
+
+              console.log("you HIT ! there are " + deck.length + " cards left");
+
+          }
+          hitClick();
+  }; 
+}
+  var whatsMyHand = function(){
+    console.log(currentHand)
+  }
+      
+       
+                     	 
 
   
 
