@@ -79,6 +79,10 @@ var firstPick = function() {
 
               currentHand.push(fC);
 
+             var div1 = document.createElement('div')
+             div1.className=(fC.class)
+             document.body.appendChild(div1)
+
               console.log("there are " + deck.length + " cards left"); 
              }
             for (var i = 0; i < 1; i++) {
@@ -87,12 +91,17 @@ var firstPick = function() {
 
               currentHand.push(fC2);
 
+              var div2 = document.createElement('div')
+              div2.className=(fC2.class)
+              document.body.appendChild(div2)
+
               console.log("there are " + deck.length + " cards left");
               var valAlert = alert("you were dealt two cards: " + fC.rank + " of " + fC.suit + " with a value of " + fC.value + "," + " and " 
                 + fC2.rank + " of " + fC2.suit + " with a value of " + fC2.value + "                               " +  " total value currently is: " +(fC.value+fC2.value));
               
              
               }
+
             
 
               console.log("you were dealt two cards: " + fC.rank + " of " + fC.suit + " with a value of " + fC.value + "," + " and " 
@@ -173,8 +182,7 @@ var addDealerCard = function(){
                     if (total > 21){ 
                     player.className = "loser"
                      console.log("BUSTEDDDDDDDDD")
-                     alert("BUSSSSSSSSTTTTTTEEEEEEEE")
-                     alert("EEEEEEEEDDDDDDDDDDD") }
+                     alert("YOU BUSTED!") }
 
               else {
 
