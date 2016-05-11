@@ -1,52 +1,58 @@
-.Ace-Clubs{background-image: url("PNG-cards/ace_of_clubs.png"); display:inline-block; height: 200px; width: 130px;}
-.2-Clubs{background-image: url("PNG-cards/2_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.3-Clubs{background-image: url("PNG-cards/3_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.4-Clubs{background-image: url("PNG-cards/4_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.5-Clubs{background-image: url("PNG-cards/5_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.6-Clubs{background-image: url("PNG-cards/6_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.7-Clubs{background-image: url("PNG-cards/7_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.8-Clubs{background-image: url("PNG-cards/8_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.9-Clubs{background-image: url("PNG-cards/9_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.10-Clubs{background-image: url("PNG-cards/10_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.Jack-Clubs{background-image: url("PNG-cards/jack_of_clubs.png") display:inline-block; height: 200px; width: 130px;}
-.Queen-Clubs{background-image: url("PNG-cards/queen_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.King-Clubs{background-image: url("PNG-cards/king_of_clubs.png")display:inline-block; height: 200px; width: 130px;}
-.Ace-Diamonds{background-image: url("PNG-cards/ace_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.2-Diamonds{background-image: url("PNG-cards/2_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.3-Diamonds{background-image: url("PNG-cards/3_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.4-Diamonds{background-image: url("PNG-cards/4_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.5-Diamonds{background-image: url("PNG-cards/5_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.6-Diamonds{background-image: url("PNG-cards/6_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.7-Diamonds{background-image: url("PNG-cards/7_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.8-Diamonds{background-image: url("PNG-cards/8_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.9-Diamonds{background-image: url("PNG-cards/9_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.10-Diamonds{background-image: url("PNG-cards/10_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.Jack-Diamonds{background-image: url("PNG-cards/jack_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.Queen-Diamonds{background-image: url("PNG-cards/queen_of_diamonds.png")display:inline-block; height: 200px; width: 130px;} 
-.King-Diamonds{background-image: url("PNG-cards/king_of_diamonds.png")display:inline-block; height: 200px; width: 130px;}
-.Ace-Hearts{background-image: url("PNG-cards/ace_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.2-Hearts{background-image: url("PNG-cards/2_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.3-Hearts{background-image: url("PNG-cards/3_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.4-Hearts{background-image: url("PNG-cards/4_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.5-Hearts{background-image: url("PNG-cards/5_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.6-Hearts{background-image: url("PNG-cards/6_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.7-Hearts{background-image: url("PNG-cards/7_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.8-Hearts{background-image: url("PNG-cards/8_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.9-Hearts{background-image: url("PNG-cards/9_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.10-Hearts{background-image: url("PNG-cards/10_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.Jack-Hearts{background-image: url("PNG-cards/jack_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.Queen-Hearts{background-image: url("PNG-cards/queen_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.King-Hearts{background-image: url("PNG-cards/king_of_hearts.png")display:inline-block; height: 200px; width: 130px;}
-.Ace-Spades{background-image: url("PNG-cards/ace_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.2-Spades{background-image: url("PNG-cards/2_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.3-Spades{background-image: url("PNG-cards/3_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.4-Spades{background-image: url("PNG-cards/4_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.5-Spades{background-image: url("PNG-cards/5_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.6-Spades{background-image: url("PNG-cards/6_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.7-Spades{background-image: url("PNG-cards/7_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.8-Spades{background-image: url("PNG-cards/8_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.9-Spades{background-image: url("PNG-cards/9_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.10-Spades{background-image: url("PNG-cards/10_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.Jack-Spades{background-image: url("PNG-cards/jack_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.Queen-Spades{background-image: url("PNG-cards/queen_of_spades.png")display:inline-block; height: 200px; width: 130px;}
-.King-Spades{background-image: url("PNG-cards/king_of_spades.png")display:inline-block;}
+.Clubs-Ace{background-image: url("ace_of_clubs.png"); 
+display:inline-block;
+ height: 200px; 
+ width: 130px;}
+.Clubs-2{background-image: url("PNG-cards/2_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-3{background-image: url("PNG-cards/3_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-4{background-image: url("PNG-cards/4_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-5{background-image: url("PNG-cards/5_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-6{background-image: url("PNG-cards/6_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-7{background-image: url("PNG-cards/7_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-8{background-image: url("PNG-cards/8_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-9{background-image: url("PNG-cards/9_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-10{background-image: url("PNG-cards/10_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-Jack{background-image: url("PNG-cards/jack_of_clubs.png");
+ display:inline-block;
+  height: 200px;
+   width: 130px;}
+.Clubs-Queen{background-image: url("PNG-cards/queen_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Clubs-King{background-image: url("PNG-cards/king_of_clubs.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-Ace{background-image: url("PNG-cards/ace_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-2{background-image: url("PNG-cards/2_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-3{background-image: url("PNG-cards/3_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-4{background-image: url("PNG-cards/4_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-5{background-image: url("PNG-cards/5_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-6{background-image: url("PNG-cards/6_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-7{background-image: url("PNG-cards/7_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-8{background-image: url("PNG-cards/8_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-9{background-image: url("PNG-cards/9_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-10{background-image: url("PNG-cards/10_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-Jack{background-image: url("PNG-cards/jack_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Diamonds-Queen{background-image: url("PNG-cards/queen_of_diamonds.png");display:inline-block; height: 200px; width: 130px;} 
+.Diamonds-King{background-image: url("PNG-cards/king_of_diamonds.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-Ace{background-image: url("PNG-cards/ace_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-2{background-image: url("PNG-cards/2_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-3{background-image: url("PNG-cards/3_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-4{background-image: url("PNG-cards/4_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-5{background-image: url("PNG-cards/5_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-6{background-image: url("PNG-cards/6_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-7{background-image: url("PNG-cards/7_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-8{background-image: url("PNG-cards/8_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-9{background-image: url("PNG-cards/9_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-10{background-image: url("PNG-cards/10_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-Jack{background-image: url("PNG-cards/jack_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-Queen{background-image: url("PNG-cards/queen_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Hearts-King{background-image: url("PNG-cards/king_of_hearts.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-Ace{background-image: url("PNG-cards/ace_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-2{background-image: url("PNG-cards/2_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-3{background-image: url("PNG-cards/3_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-4{background-image: url("PNG-cards/4_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-5{background-image: url("PNG-cards/5_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-6{background-image: url("PNG-cards/6_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-7{background-image: url("PNG-cards/7_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-8{background-image: url("PNG-cards/8_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-9{background-image: url("PNG-cards/9_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-10{background-image: url("PNG-cards/10_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Jack-Spades{background-image: url("PNG-cards/jack_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Queen-Spades{background-image: url("PNG-cards/queen_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.King-Spades{background-image: url("PNG-cards/king_of_spades.png");display:inline-block;}

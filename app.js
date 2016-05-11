@@ -60,7 +60,7 @@ function makeDeck() {
             // this was the line i had tried to use for about an hour, it returns the correct 
             // index number of the array but not the string of the name, very very frustrating
 
-             var curCard = {'rank': ranks[j], 'suit':suits[i], 'value':values[j], class:(ranks[j]+"-"+ suits[i])}
+             var curCard = {'rank': ranks[j], 'suit':suits[i], 'value':values[j], class:(suits[i]+"-"+ ranks[j])}
                      this.deck.push(curCard);
 
            console.log(curCard) 
@@ -108,6 +108,8 @@ var firstPick = function() {
                 + fC2.rank + " of " + fC2.suit + " with a value of " + fC2.value)
               console.log("current value of hand is " + (fC.value+fC2.value))
 }
+
+// FINISH WORKING THIS TOMORROW 
 var currentHand2= []
 var dealerPick;
 var dealerPick = function() {
@@ -117,6 +119,9 @@ var dealerPick = function() {
               var rmdC = deck.splice(dC, 1)
 
               currentHand2.push(dC);
+               var div3 = document.createElement('div')
+             div3.className=(dC.class)
+             document.body.appendChild(div3)
 
               console.log("there are " + deck.length + " cards left"); 
              }
@@ -125,6 +130,9 @@ var dealerPick = function() {
               var rmdC2 = deck.splice(dC2, 1)
 
               currentHand2.push(dC2);
+               var div4 = document.createElement('div')
+             div4.className=(dC2.class)
+             document.body.appendChild(div4)
 
               console.log("there are " + deck.length + " cards left");
               var valAlert = alert("you were dealt two cards: " + dC.rank + " of " + dC.suit + " with a value of " + dC.value + "," + " and " 
@@ -152,7 +160,11 @@ var addDealerCard = function(){
                         var dC3 = deck[Math.floor(Math.random() * deck.length)];
               var rmdC3 = deck.splice(dC3, 1)
 
-              currentHand2.push(dC3); 
+              currentHand2.push(dC3);
+               var div5 = document.createElement('div')
+             div5.className=(dC3.class)
+             document.body.appendChild(div5) 
+                    if (total < 21)
               console.log("dealer was dealt " + dC3.rank + " of " + dC3.suit + " with a value of " + dC3.value + "total value : " + (total+dC3.value))}
                 if (total > 17 && total < 21){
                 console.log( "dealer stands") }
@@ -180,7 +192,7 @@ var addDealerCard = function(){
 
 
                     if (total > 21){ 
-                    player.className = "loser"
+                    
                      console.log("BUSTEDDDDDDDDD")
                      alert("YOU BUSTED!") }
 
