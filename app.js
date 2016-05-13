@@ -2,6 +2,15 @@ var player;
 var dealer;
 var hand;
   usedCards = []
+  var stand;
+var stand = function(){
+  var total = 0;
+                for (i=0; i<currentHand.length; i++)
+                {
+                    total += currentHand[i].value;
+                    }
+
+    alert("PLAYER STANDS! VALUE OF HAND IS "+ total) }
 
  var myHand = function(){
    for (i=0; i<currentHand.length; i++)
@@ -121,7 +130,7 @@ var dealerPick = function() {
               currentHand2.push(dC);
                var div3 = document.createElement('div')
              div3.className=(dC.class)
-             document.body.appendChild(div3)
+             document.getElementById("rightSide").appendChild(div3)
 
               console.log("there are " + deck.length + " cards left"); 
              }
@@ -130,12 +139,13 @@ var dealerPick = function() {
               var rmdC2 = deck.splice(dC2, 1)
 
               currentHand2.push(dC2);
-               var div4 = document.createElement('div')
+
+             var div4 = document.createElement('div')
              div4.className=(dC2.class)
-             document.body.appendChild(div4)
+             document.getElementById("rightSide").appendChild(div4)
 
               console.log("there are " + deck.length + " cards left");
-              var valAlert = alert("you were dealt two cards: " + dC.rank + " of " + dC.suit + " with a value of " + dC.value + "," + " and " 
+              var valAlert = alert("Deaeler was dealt two cards: " + dC.rank + " of " + dC.suit + " with a value of " + dC.value + "," + " and " 
                 + dC2.rank + " of " + dC2.suit + " with a value of " + dC2.value + "                         " +  " total value currently is: " +(dC.value+dC2.value));
               
              
@@ -163,12 +173,19 @@ var addDealerCard = function(){
               currentHand2.push(dC3);
                var div5 = document.createElement('div')
              div5.className=(dC3.class)
-             document.body.appendChild(div5) 
-                    if (total < 21)
-              console.log("dealer was dealt " + dC3.rank + " of " + dC3.suit + " with a value of " + dC3.value + "total value : " + (total+dC3.value))}
+             document.getElementById("rightSide").appendChild(div5) 
+
+             alert("Dealer was dealt a new card: " + dC3.rank + " of " + dC3.suit + " with a value of " + dC3.value)
+
+                 if (total < 21)
+              console.log("dealer was dealt " + dC3.rank + " of " + dC3.suit + " with a value of " + dC3.value + "total value : " + (total+dC3.value))};
+            
                 if (total > 17 && total < 21){
-                console.log( "dealer stands") }
+                console.log( "dealer stands") 
+                alert("dealer Stands")
+              }
                 if (total > 21){
+                  alert("Dealer has busted!")
                   console.log("Dealer Bussts")
                 }
               }
@@ -180,6 +197,10 @@ var addDealerCard = function(){
               var rmFC3 = deck.splice(fC3, 1)
 
               currentHand.push(fC3);
+
+               var div6 = document.createElement('div')
+             div6.className=(fC3.class)
+             document.body.appendChild(div6) 
               
               console.log("you drew a " + fC3.rank + " of " + fC3.suit + " with a value of " + fC3.value)
               alert("you drew a " + fC3.rank + " of " + fC3.suit + " with a value of " + fC3.value)

@@ -53,6 +53,15 @@ display:inline-block;
 .Spades-8{background-image: url("PNG-cards/8_of_spades.png");display:inline-block; height: 200px; width: 130px;}
 .Spades-9{background-image: url("PNG-cards/9_of_spades.png");display:inline-block; height: 200px; width: 130px;}
 .Spades-10{background-image: url("PNG-cards/10_of_spades.png");display:inline-block; height: 200px; width: 130px;}
-.Jack-Spades{background-image: url("PNG-cards/jack_of_spades.png");display:inline-block; height: 200px; width: 130px;}
-.Queen-Spades{background-image: url("PNG-cards/queen_of_spades.png");display:inline-block; height: 200px; width: 130px;}
-.King-Spades{background-image: url("PNG-cards/king_of_spades.png");display:inline-block;}
+.Spades-Jack{background-image: url("PNG-cards/jack_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-Queen{background-image: url("PNG-cards/queen_of_spades.png");display:inline-block; height: 200px; width: 130px;}
+.Spades-King{background-image: url("PNG-cards/king_of_spades.png");display:inline-block;}
+
+#rightSide {
+	position: right;
+
+}
+
+body{ 
+
+background-color: green; }
